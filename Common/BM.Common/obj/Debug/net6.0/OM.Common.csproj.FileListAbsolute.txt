@@ -1,0 +1,12 @@
+E:\Work\ObjectManager\Common\OM.Common\bin\Debug\net6.0\OM.Common.deps.json
+E:\Work\ObjectManager\Common\OM.Common\bin\Debug\net6.0\OM.Common.dll
+E:\Work\ObjectManager\Common\OM.Common\bin\Debug\net6.0\OM.Common.pdb
+E:\Work\ObjectManager\Common\OM.Common\obj\Debug\net6.0\OM.Common.csproj.AssemblyReference.cache
+E:\Work\ObjectManager\Common\OM.Common\obj\Debug\net6.0\OM.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\ObjectManager\Common\OM.Common\obj\Debug\net6.0\OM.Common.AssemblyInfoInputs.cache
+E:\Work\ObjectManager\Common\OM.Common\obj\Debug\net6.0\OM.Common.AssemblyInfo.cs
+E:\Work\ObjectManager\Common\OM.Common\obj\Debug\net6.0\OM.Common.csproj.CoreCompileInputs.cache
+E:\Work\ObjectManager\Common\OM.Common\obj\Debug\net6.0\OM.Common.dll
+E:\Work\ObjectManager\Common\OM.Common\obj\Debug\net6.0\refint\OM.Common.dll
+E:\Work\ObjectManager\Common\OM.Common\obj\Debug\net6.0\OM.Common.pdb
+E:\Work\ObjectManager\Common\OM.Common\obj\Debug\net6.0\ref\OM.Common.dll

@@ -1,0 +1,12 @@
+E:\Work\BooksManager\Common\BM.Common\obj\Debug\net6.0\BM.Common.csproj.AssemblyReference.cache
+E:\Work\BooksManager\Common\BM.Common\obj\Debug\net6.0\BM.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\BooksManager\Common\BM.Common\obj\Debug\net6.0\BM.Common.AssemblyInfoInputs.cache
+E:\Work\BooksManager\Common\BM.Common\obj\Debug\net6.0\BM.Common.AssemblyInfo.cs
+E:\Work\BooksManager\Common\BM.Common\obj\Debug\net6.0\BM.Common.csproj.CoreCompileInputs.cache
+E:\Work\BooksManager\Common\BM.Common\bin\Debug\net6.0\BM.Common.deps.json
+E:\Work\BooksManager\Common\BM.Common\bin\Debug\net6.0\BM.Common.dll
+E:\Work\BooksManager\Common\BM.Common\bin\Debug\net6.0\BM.Common.pdb
+E:\Work\BooksManager\Common\BM.Common\obj\Debug\net6.0\BM.Common.dll
+E:\Work\BooksManager\Common\BM.Common\obj\Debug\net6.0\refint\BM.Common.dll
+E:\Work\BooksManager\Common\BM.Common\obj\Debug\net6.0\BM.Common.pdb
+E:\Work\BooksManager\Common\BM.Common\obj\Debug\net6.0\ref\BM.Common.dll
