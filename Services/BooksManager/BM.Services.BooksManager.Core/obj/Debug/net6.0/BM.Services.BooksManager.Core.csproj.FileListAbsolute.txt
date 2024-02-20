@@ -1,0 +1,12 @@
+E:\Work\BooksManager\Services\BooksManager\BM.Services.BooksManager.Core\bin\Debug\net6.0\BM.Services.BooksManager.Core.deps.json
+E:\Work\BooksManager\Services\BooksManager\BM.Services.BooksManager.Core\bin\Debug\net6.0\BM.Services.BooksManager.Core.dll
+E:\Work\BooksManager\Services\BooksManager\BM.Services.BooksManager.Core\bin\Debug\net6.0\BM.Services.BooksManager.Core.pdb
+E:\Work\BooksManager\Services\BooksManager\BM.Services.BooksManager.Core\obj\Debug\net6.0\BM.Services.BooksManager.Core.csproj.AssemblyReference.cache
+E:\Work\BooksManager\Services\BooksManager\BM.Services.BooksManager.Core\obj\Debug\net6.0\BM.Services.BooksManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\BooksManager\Services\BooksManager\BM.Services.BooksManager.Core\obj\Debug\net6.0\BM.Services.BooksManager.Core.AssemblyInfoInputs.cache
+E:\Work\BooksManager\Services\BooksManager\BM.Services.BooksManager.Core\obj\Debug\net6.0\BM.Services.BooksManager.Core.AssemblyInfo.cs
+E:\Work\BooksManager\Services\BooksManager\BM.Services.BooksManager.Core\obj\Debug\net6.0\BM.Services.BooksManager.Core.csproj.CoreCompileInputs.cache
+E:\Work\BooksManager\Services\BooksManager\BM.Services.BooksManager.Core\obj\Debug\net6.0\BM.Services.BooksManager.Core.dll
+E:\Work\BooksManager\Services\BooksManager\BM.Services.BooksManager.Core\obj\Debug\net6.0\refint\BM.Services.BooksManager.Core.dll
+E:\Work\BooksManager\Services\BooksManager\BM.Services.BooksManager.Core\obj\Debug\net6.0\BM.Services.BooksManager.Core.pdb
+E:\Work\BooksManager\Services\BooksManager\BM.Services.BooksManager.Core\obj\Debug\net6.0\ref\BM.Services.BooksManager.Core.dll
