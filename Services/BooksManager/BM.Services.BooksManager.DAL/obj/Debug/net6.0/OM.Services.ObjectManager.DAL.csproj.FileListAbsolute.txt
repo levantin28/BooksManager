@@ -1,0 +1,17 @@
+E:\Work\ObjectManager\Services\ObjectManager\OM.Services.ObjectManager.DAL\bin\Debug\net6.0\OM.Services.ObjectManager.DAL.deps.json
+E:\Work\ObjectManager\Services\ObjectManager\OM.Services.ObjectManager.DAL\bin\Debug\net6.0\OM.Services.ObjectManager.DAL.dll
+E:\Work\ObjectManager\Services\ObjectManager\OM.Services.ObjectManager.DAL\bin\Debug\net6.0\OM.Services.ObjectManager.DAL.pdb
+E:\Work\ObjectManager\Services\ObjectManager\OM.Services.ObjectManager.DAL\bin\Debug\net6.0\OM.Common.dll
+E:\Work\ObjectManager\Services\ObjectManager\OM.Services.ObjectManager.DAL\bin\Debug\net6.0\OM.Services.ObjectManager.Core.dll
+E:\Work\ObjectManager\Services\ObjectManager\OM.Services.ObjectManager.DAL\bin\Debug\net6.0\OM.Common.pdb
+E:\Work\ObjectManager\Services\ObjectManager\OM.Services.ObjectManager.DAL\bin\Debug\net6.0\OM.Services.ObjectManager.Core.pdb
+E:\Work\ObjectManager\Services\ObjectManager\OM.Services.ObjectManager.DAL\obj\Debug\net6.0\OM.Services.ObjectManager.DAL.csproj.AssemblyReference.cache
+E:\Work\ObjectManager\Services\ObjectManager\OM.Services.ObjectManager.DAL\obj\Debug\net6.0\OM.Services.ObjectManager.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\ObjectManager\Services\ObjectManager\OM.Services.ObjectManager.DAL\obj\Debug\net6.0\OM.Services.ObjectManager.DAL.AssemblyInfoInputs.cache
+E:\Work\ObjectManager\Services\ObjectManager\OM.Services.ObjectManager.DAL\obj\Debug\net6.0\OM.Services.ObjectManager.DAL.AssemblyInfo.cs
+E:\Work\ObjectManager\Services\ObjectManager\OM.Services.ObjectManager.DAL\obj\Debug\net6.0\OM.Services.ObjectManager.DAL.csproj.CoreCompileInputs.cache
+E:\Work\ObjectManager\Services\ObjectManager\OM.Services.ObjectManager.DAL\obj\Debug\net6.0\OM.Services.ObjectManager.DAL.csproj.CopyComplete
+E:\Work\ObjectManager\Services\ObjectManager\OM.Services.ObjectManager.DAL\obj\Debug\net6.0\OM.Services.ObjectManager.DAL.dll
+E:\Work\ObjectManager\Services\ObjectManager\OM.Services.ObjectManager.DAL\obj\Debug\net6.0\refint\OM.Services.ObjectManager.DAL.dll
+E:\Work\ObjectManager\Services\ObjectManager\OM.Services.ObjectManager.DAL\obj\Debug\net6.0\OM.Services.ObjectManager.DAL.pdb
+E:\Work\ObjectManager\Services\ObjectManager\OM.Services.ObjectManager.DAL\obj\Debug\net6.0\ref\OM.Services.ObjectManager.DAL.dll
