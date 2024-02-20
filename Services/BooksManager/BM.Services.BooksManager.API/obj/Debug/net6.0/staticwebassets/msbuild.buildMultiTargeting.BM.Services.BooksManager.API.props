@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BM.Services.BooksManager.API.props" />
+</Project>

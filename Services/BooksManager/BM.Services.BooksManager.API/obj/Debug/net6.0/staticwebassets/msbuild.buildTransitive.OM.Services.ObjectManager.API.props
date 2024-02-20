@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\OM.Services.ObjectManager.API.props" />
+</Project>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ztOZPcK7VFJjK7Ig71D9BwH3QHddtI9PiMNBHBkfS4s=",
+  "Source": "BM.Services.BooksManager.API",
+  "BasePath": "_content/BM.Services.BooksManager.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
