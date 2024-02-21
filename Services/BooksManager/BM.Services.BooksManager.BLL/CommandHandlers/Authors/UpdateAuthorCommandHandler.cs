@@ -29,11 +29,11 @@ namespace BM.Services.BooksManager.BLL.CommandHandlers.Authors
             var author = await _authorsRepository.GetAuthorWithBooks(command.Id);
             var books = await _booksRepository.GetBooksByIds(command.BooksIds);
 
-            var booksNotInAuthorBooksIds = books.Select(a => a.Id).Except(author.Books.Select(ba => ba.AuthorId));
+            var booksNotInAuthorBooksIds = books.Select(a => a.Id).Except(author.Books.Select(ba => ba.BookId));
             var booksToBeAdded = books.Where(a => booksNotInAuthorBooksIds.Contains(a.Id)).ToList();
 
             var authorBooksNotInBooksIds = author.Books.Select(ba => ba.AuthorId).Except(books.Select(a => a.Id)).ToList();
-            var booksToBeRemoved = author.Books.Where(ba => authorBooksNotInBooksIds.Contains(ba.AuthorId)).ToList();
+            var booksToBeRemoved = author.Books.Where(ba => authorBooksNotInBooksIds.Contains(ba.BookId)).ToList();
 
             foreach (var book in booksToBeAdded)
             {
