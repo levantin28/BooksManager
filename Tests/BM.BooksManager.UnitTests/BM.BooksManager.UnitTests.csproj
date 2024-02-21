@@ -24,8 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="BLL\CommandValidators\Authors\" />
-    <Folder Include="BLL\CommandValidators\Books\" />
     <Folder Include="BLL\QueryHandlers\Authors\" />
     <Folder Include="BLL\QueryHandlers\Books\" />
   </ItemGroup>

@@ -19,7 +19,7 @@ namespace BM.Services.BooksManager.BLL.CommandValidators.Authors
         }
         public async Task<ValidationResultModel> ValidateAsync(DeleteAuthorCommand command)
         {
-            if (_authorsRepository.GetAsync(command.Id) == null)
+            if (await _authorsRepository.GetAsync(command.Id) == null)
                 return new ValidationResultModel("Author doesn't exist in the database.");
 
             return new ValidationResultModel();
