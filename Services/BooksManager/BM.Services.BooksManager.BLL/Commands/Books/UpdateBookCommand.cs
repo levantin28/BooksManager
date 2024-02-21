@@ -18,8 +18,6 @@ namespace BM.Services.BooksManager.BLL.Commands.Books
         [Required]
         public string Title { get; set; }
         public string Description { get; set; }
-        [JsonIgnore]
-        public string CoverImagePath { get; set; }
         [Required]
         public List<int> AuthorsIds { get; set; }
 
@@ -31,7 +29,6 @@ namespace BM.Services.BooksManager.BLL.Commands.Books
                 Id = model.Id,
                 Title = model.Title,
                 Description = model.Description,
-                CoverImagePath = model.CoverImagePath,
                 Authors = new List<BookAuthor>()
             };
         }
