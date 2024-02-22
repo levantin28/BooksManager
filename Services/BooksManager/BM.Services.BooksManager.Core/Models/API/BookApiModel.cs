@@ -1,4 +1,5 @@
-﻿using BM.Services.BooksManager.Core.Models.Entities;
+﻿using BM.Common.Infrastructure.Services;
+using BM.Services.BooksManager.Core.Models.Entities;
 using BM.Services.BooksManager.Core.Models.Relationships;
 using System;
 using System.Collections.Generic;

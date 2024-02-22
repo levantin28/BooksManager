@@ -10,5 +10,6 @@ namespace BM.Common.Infrastructure.Services
     public interface IFileService
     {
         Task<string> UploadFileAsync(IFormFile file);
+
     }
 }

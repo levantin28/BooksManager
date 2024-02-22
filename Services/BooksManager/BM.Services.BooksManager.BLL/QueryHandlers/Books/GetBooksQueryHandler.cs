@@ -1,6 +1,7 @@
 ﻿using BM.Common.CQRS.Queries;
 using BM.Common.CQRS.Queries.Handler;
 using BM.Services.BooksManager.BLL.Queries.Books;
+using BM.Services.BooksManager.Core.Models.API;
 using BM.Services.BooksManager.Core.Models.Entities;
 using BM.Services.BooksManager.DAL.Repositories.Books;
 using System;

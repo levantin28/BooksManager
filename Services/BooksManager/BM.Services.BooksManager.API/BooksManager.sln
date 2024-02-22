@@ -19,6 +19,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BM.Services.BooksManager.DA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BM.Services.BooksManager.Core", "..\BM.Services.BooksManager.Core\BM.Services.BooksManager.Core.csproj", "{3D1E6C44-A296-49AD-A80B-5CA5BACC54AF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C55FC5E0-0792-45DD-8E6A-91F4CB56B90C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BM.BooksManager.UnitTests", "..\..\..\Tests\BM.BooksManager.UnitTests\BM.BooksManager.UnitTests.csproj", "{8A081993-A0FF-4FCF-8DA1-1D3C5EF92E27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,10 @@ Global
 		{3D1E6C44-A296-49AD-A80B-5CA5BACC54AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D1E6C44-A296-49AD-A80B-5CA5BACC54AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D1E6C44-A296-49AD-A80B-5CA5BACC54AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A081993-A0FF-4FCF-8DA1-1D3C5EF92E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A081993-A0FF-4FCF-8DA1-1D3C5EF92E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A081993-A0FF-4FCF-8DA1-1D3C5EF92E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A081993-A0FF-4FCF-8DA1-1D3C5EF92E27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +64,7 @@ Global
 		{6A2B2B7E-89D0-4BA8-BD48-3047A960FDA0} = {6D594522-4BF7-4FD4-9FEF-8BB1C064D38C}
 		{9E6BBDD3-6827-460E-924B-5C7D7635C95E} = {6D594522-4BF7-4FD4-9FEF-8BB1C064D38C}
 		{3D1E6C44-A296-49AD-A80B-5CA5BACC54AF} = {6D594522-4BF7-4FD4-9FEF-8BB1C064D38C}
+		{8A081993-A0FF-4FCF-8DA1-1D3C5EF92E27} = {C55FC5E0-0792-45DD-8E6A-91F4CB56B90C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A80345E6-9A2B-4265-947E-C0B37509229F}

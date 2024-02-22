@@ -41,7 +41,7 @@ namespace BM.Services.BooksManager.API.Controllers
         {
             var query = new GetBookQuery(id);
 
-            var result = await _queryDispatcher.DispatchAsync<GetBookQuery, QueryResultModel<Book>>(query);
+            var result = await _queryDispatcher.DispatchAsync<GetBookQuery, QueryResultModel<BookApiModel>>(query);
             if (result.HasErrors)
                 return BadRequest(result.ErrorMessages);
 

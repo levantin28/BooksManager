@@ -31,5 +31,13 @@ namespace BM.Common.Infrastructure.Services
 
             return filePath;
         }
+
+        public static string GetFileAsBase64(string filePath)
+        {
+            byte[] fileBytes = File.ReadAllBytes(filePath);
+
+            // Convert the bytes to base64 string
+            return Convert.ToBase64String(fileBytes);
+        }
     }
 }

@@ -1,4 +1,5 @@
-﻿using BM.Services.BooksManager.Core.Models.API;
+﻿using BM.Common.Infrastructure.Services;
+using BM.Services.BooksManager.Core.Models.API;
 using BM.Services.BooksManager.Core.Models.Relationships;
 using System;
 using System.Collections.Generic;
@@ -24,7 +25,7 @@ namespace BM.Services.BooksManager.Core.Models.Entities
                 Id = model.Id,
                 Title = model.Title,
                 Description = model.Description,
-                CoverImage = model.CoverImagePath,
+                CoverImage = FileService.GetFileAsBase64(model.CoverImagePath),
                 Authors = model.Authors,
             };
         }

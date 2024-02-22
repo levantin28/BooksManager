@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BM.Services.BooksManager.BLL.Queries.Books
 {
-    public class GetBookQuery : BMQuery<QueryResultModel<Book>>
+    public class GetBookQuery : BMQuery<QueryResultModel<BookApiModel>>
     {
         public int Id { get; set; }
         public GetBookQuery(int id)
