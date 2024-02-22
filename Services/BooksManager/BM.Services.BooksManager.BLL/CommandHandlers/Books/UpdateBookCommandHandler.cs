@@ -39,6 +39,8 @@ namespace BM.Services.BooksManager.BLL.CommandHandlers.Books
                 book.Authors.Add(new BookAuthor() { Author = author });
             }
 
+            book.Description = command.Description;
+
             await _bookAuthorsRepository.DeleteAsync(authorsToBeRemoved);
 
             await _booksRepository.AddOrUpdateAsync(book);

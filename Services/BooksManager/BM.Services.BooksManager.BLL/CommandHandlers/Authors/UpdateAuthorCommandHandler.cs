@@ -42,6 +42,7 @@ namespace BM.Services.BooksManager.BLL.CommandHandlers.Authors
 
                 author.Books.Add(new BookAuthor() { Book = book });
             }
+            author.Name = command.Name;
 
             await _bookAuthorsRepository.DeleteAsync(booksToBeRemoved);
 

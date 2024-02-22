@@ -18,12 +18,12 @@ namespace BM.Services.BooksManager.BLL.Commands.Books
         [Required]
         public string Title { get; set; }
         public string Description { get; set; }
-        [JsonIgnore]
-        public string CoverImagePath { get; set; }
         [Required]
         public List<int> AuthorsIds { get; set; }
-        [Required]
-        public IFormFile File { get; set; } 
+        [JsonIgnore]
+        public IFormFile File { get; set; }
+        [JsonIgnore]
+        public string CoverImagePath { get; set; }
 
         public static Book CreateBook(CreateBookCommand model)
         {

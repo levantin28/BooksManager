@@ -21,7 +21,7 @@ namespace BM.Services.BooksManager.API.Controllers
             _commandDispatcher = commandDispatcher;
         }
 
-        [HttpGet("")]
+        [HttpGet("all")]
         [ProducesResponseType(typeof(QueryResultModel<List<Book>>), StatusCodes.Status200OK)]
         public async Task<IActionResult> Get()
         {
