@@ -31,7 +31,7 @@ namespace BM.Services.BooksManager.API.Controllers
         {
             var query = new GetAuthorsQuery();
 
-            var result = await _queryDispatcher.DispatchAsync<GetAuthorsQuery, QueryResultModel<List<Author>>>(query);
+            var result = await _queryDispatcher.DispatchAsync<GetAuthorsQuery, QueryResultModel<List<AuthorApiModel>>>(query);
             if (result.HasErrors)
                 return BadRequest(result.ErrorMessages);
 
@@ -44,7 +44,7 @@ namespace BM.Services.BooksManager.API.Controllers
         {
             var query = new GetAuthorQuery(id);
 
-            var result = await _queryDispatcher.DispatchAsync<GetAuthorQuery, QueryResultModel<Author>>(query);
+            var result = await _queryDispatcher.DispatchAsync<GetAuthorQuery, QueryResultModel<AuthorApiModel>>(query);
             if (result.HasErrors)
                 return BadRequest(result.ErrorMessages);
 

@@ -1,4 +1,5 @@
 ﻿using BM.Common.CQRS.Queries;
+using BM.Services.BooksManager.Core.Models.API;
 using BM.Services.BooksManager.Core.Models.Entities;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BM.Services.BooksManager.BLL.Queries.Authors
 {
-    public class GetAuthorsQuery : BMQuery<QueryResultModel<List<Author>>>
+    public class GetAuthorsQuery : BMQuery<QueryResultModel<List<AuthorApiModel>>>
     {
     }
 }
