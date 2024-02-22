@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using BM.Services.BooksManager.BLL.Queries.Authors;
 using BM.Services.BooksManager.BLL.Commands.Authors;
+using BM.Services.BooksManager.Core.Models.API;
 
 namespace BM.Services.BooksManager.API.Controllers
 {
@@ -25,7 +26,7 @@ namespace BM.Services.BooksManager.API.Controllers
         }
 
         [HttpGet("all")]
-        [ProducesResponseType(typeof(QueryResultModel<List<Author>>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(QueryResultModel<List<AuthorApiModel>>), StatusCodes.Status200OK)]
         public async Task<IActionResult> Get()
         {
             var query = new GetAuthorsQuery();
@@ -38,7 +39,7 @@ namespace BM.Services.BooksManager.API.Controllers
         }
 
         [HttpGet("{id:int}")]
-        [ProducesResponseType(typeof(QueryResultModel<Author>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(QueryResultModel<AuthorApiModel>), StatusCodes.Status200OK)]
         public async Task<IActionResult> Get(int id)
         {
             var query = new GetAuthorQuery(id);

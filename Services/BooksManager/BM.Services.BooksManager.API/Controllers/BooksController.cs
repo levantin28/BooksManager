@@ -3,6 +3,7 @@ using BM.Common.CQRS.Queries;
 using BM.Common.CQRS.Queries.Dispatcher;
 using BM.Services.BooksManager.BLL.Commands.Books;
 using BM.Services.BooksManager.BLL.Queries.Books;
+using BM.Services.BooksManager.Core.Models.API;
 using BM.Services.BooksManager.Core.Models.Entities;
 using Microsoft.AspNetCore.Mvc;
 
@@ -22,7 +23,7 @@ namespace BM.Services.BooksManager.API.Controllers
         }
 
         [HttpGet("all")]
-        [ProducesResponseType(typeof(QueryResultModel<List<Book>>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(QueryResultModel<List<BookApiModel>>), StatusCodes.Status200OK)]
         public async Task<IActionResult> Get()
         {
             var query = new GetBooksQuery();
@@ -35,7 +36,7 @@ namespace BM.Services.BooksManager.API.Controllers
         }
 
         [HttpGet("{id:int}")]
-        [ProducesResponseType(typeof(QueryResultModel<Book>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(QueryResultModel<BookApiModel>), StatusCodes.Status200OK)]
         public async Task<IActionResult> Get(int id)
         {
             var query = new GetBookQuery(id);
