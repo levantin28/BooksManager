@@ -1,0 +1,19 @@
+.showcase {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+  }
+  
+  .picture-container {
+    width: 200px; 
+    height: auto; 
+    border-radius: 10px;
+    overflow: hidden; 
+  }
+  
+  .picture-container img {
+    width: 100%; 
+    height: auto; 
+  }

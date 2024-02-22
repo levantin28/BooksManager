@@ -1,0 +1,15 @@
+::ng-deep .footerBox {
+    text-align: center;
+    background-color: rgba(191, 191, 191, .15);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0.5%;
+}
+
+::ng-deep .logoBM {
+    max-width: 200px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}

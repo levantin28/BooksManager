@@ -1,0 +1,17 @@
+<form [formGroup]="createAuthorForm" (submit)="onSubmit($event)" class="container">
+    <div class="row">
+      <div class="col">
+        <h2>Add Author</h2>
+      </div>
+      <div class="col">
+        <mat-form-field>
+          <mat-label>Name</mat-label>
+          <input matInput placeholder="Name" formControlName="Name">
+        </mat-form-field>
+      </div>
+      <div class="col" style="display: flex; justify-content: space-between; padding: 5px;">
+        <button type="submit" mat-raised-button color="primary">Save</button>
+        <button mat-raised-button color="primary" (click)="backToMain()">Back</button>
+      </div>
+    </div>
+  </form>

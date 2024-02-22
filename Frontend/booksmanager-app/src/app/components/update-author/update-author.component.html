@@ -1,0 +1,31 @@
+<form [formGroup]="updateAuthorForm" (submit)="onSubmit($event)" class="container">
+    <div class="row">
+      <div class="col">
+        <h2>Update Author</h2>
+      </div>
+      <div class="col">
+        <mat-form-field>
+          <mat-label>Id</mat-label>
+          <input matInput placeholder="Id" formControlName="Id">
+        </mat-form-field>
+      </div>
+      <div class="col">
+        <mat-form-field>
+          <mat-label>Name</mat-label>
+          <input matInput placeholder="Name" formControlName="Name">
+        </mat-form-field>
+      </div>
+      <div class="col">
+        <mat-form-field>
+          <mat-label>Select Book</mat-label>
+          <mat-select matNativeControl formControlName="BooksIds">
+            <mat-option *ngFor="let book of books" [value]="book.id">{{ book.title }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <div class="col" style="display: flex; justify-content: space-between; padding: 5px;">
+        <button type="submit" mat-raised-button color="primary">Save</button>
+        <button mat-raised-button color="primary" (click)="backToMain()">Back</button>
+      </div>
+    </div>
+  </form>

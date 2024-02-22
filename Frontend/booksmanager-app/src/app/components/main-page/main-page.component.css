@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Add some top margin between tables */
+}
+
+.table-container {
+  width: 80%; /* Adjust the width as needed */
+}
+
+table {
+  width: 100%;
+}

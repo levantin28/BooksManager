@@ -1,0 +1,73 @@
+
+<div class="container">
+  <div class="table-container">
+    <h2>Authors</h2>
+    <button mat-raised-button style="height: 68px; margin-right:1%" (click)="navigateToCreateAuthor($event)">
+      <mat-icon>add</mat-icon> ADD NEW
+  </button>
+    <table mat-table [dataSource]="authorsDataSource">
+      <ng-container matColumnDef="id">
+        <mat-header-cell *matHeaderCellDef>Id</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.id}}</mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef>Name</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.name}}</mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="actions">
+        <mat-header-cell *matHeaderCellDef></mat-header-cell>
+        <mat-cell *matCellDef="let row">
+          <button (click)="showDetailsAuthor($event, row)" mat-icon-button>
+            <mat-icon>info</mat-icon>
+          </button>
+          <button (click)="showUpdateAuthor($event, row)" mat-icon-button>
+            <mat-icon>update</mat-icon>
+          </button>
+          <button (click)="deleteAuthor($event, row)" mat-icon-button>
+            <mat-icon>delete</mat-icon>
+          </button>
+        </mat-cell>
+      </ng-container>
+      <mat-header-row *matHeaderRowDef="displayedColumnsAuthors"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumnsAuthors;"></mat-row>
+    </table>
+  </div>
+  <div class="table-container">
+    <h2>Books</h2>
+    <button mat-raised-button style="height: 68px; margin-right:1%" (click)="navigateToCreateBook($event)">
+      <mat-icon>add</mat-icon> ADD NEW
+  </button>
+    <table mat-table [dataSource]="booksDataSource">
+      <ng-container matColumnDef="id">
+        <mat-header-cell *matHeaderCellDef>Id</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.id}}</mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="title">
+        <mat-header-cell *matHeaderCellDef>Title</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.title}}</mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="description">
+        <mat-header-cell *matHeaderCellDef>Description</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.description}}</mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="actions">
+        <mat-header-cell *matHeaderCellDef></mat-header-cell>
+        <mat-cell *matCellDef="let row">
+          <button (click)="showDetailsBook($event, row)" mat-icon-button>
+            <mat-icon>info</mat-icon>
+          </button>
+          <button (click)="showUpdateBook($event, row)" mat-icon-button>
+            <mat-icon>update</mat-icon>
+          </button>
+          <button (click)="deleteBook($event, row)" mat-icon-button>
+            <mat-icon>delete</mat-icon>
+          </button>
+        </mat-cell>
+      </ng-container>
+      <mat-header-row *matHeaderRowDef="displayedColumnsBooks"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumnsBooks;"></mat-row>
+    </table>
+  </div>
+</div>
+
+

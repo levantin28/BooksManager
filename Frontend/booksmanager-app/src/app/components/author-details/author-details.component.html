@@ -1,0 +1,12 @@
+
+<div class="showcase">
+    <div class="fields">
+      <h1>Name: {{ author.name }}</h1>
+      <h1>Books:</h1>
+      <div *ngFor="let item of author.books">
+        <h3>{{ item.book.title }}</h3>
+      </div>
+      <div style="padding: 5px;"><button mat-raised-button color="primary" (click)="backToMain()">Back</button>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,35 @@
+<form [formGroup]="createBookForm" (submit)="onSubmit($event)" class="container">
+  <div class="row">
+    <div class="col">
+      <h2>Add Book</h2>
+    </div>
+    <div class="col">
+      <mat-form-field>
+        <mat-label>Title</mat-label>
+        <input matInput placeholder="Title" formControlName="Title">
+      </mat-form-field>
+    </div>
+    <div class="col">
+      <mat-form-field>
+        <mat-label>Description</mat-label>
+        <textarea matInput placeholder="Description" formControlName="Description"></textarea>
+      </mat-form-field>
+    </div>
+    <div class="col">
+      <mat-form-field>
+        <mat-label>Select Author</mat-label>
+        <mat-select matNativeControl formControlName="AuthorsIds">
+          <mat-option *ngFor="let author of authors" [value]="author.id">{{ author.name }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="col" style="padding-bottom: 20px;">
+      <button type="button" mat-raised-button (click)="fileInput.click()">Choose File</button>
+      <input hidden (change)="onFileSelected($event)" #fileInput type="file" id="file">
+    </div>
+    <div class="col" style="display: flex; justify-content: space-between; padding: 5px;">
+      <button type="submit" mat-raised-button color="primary">Save</button>
+      <button mat-raised-button color="primary" (click)="backToMain()">Back</button>
+    </div>
+  </div>
+</form>

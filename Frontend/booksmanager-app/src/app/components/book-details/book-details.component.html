@@ -1,0 +1,13 @@
+
+<div class="showcase">
+    <div class="picture-container">
+        <img [src]="'data:image/png;base64,' + book.coverImage" alt="Base64 Image">
+    </div>
+    <div class="fields">
+      <h1>Title: {{ book.title }}</h1>
+      <h1>Description: {{ book.description }}</h1>
+      <h1>Author: {{ book.authors[0].author.name }}</h1>
+      <div style="padding: 5px;"><button mat-raised-button color="primary" (click)="backToMain()">Back</button>
+      </div>
+    </div>
+  </div>
