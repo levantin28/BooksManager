@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BM.Services.BooksManager.BLL.Queries.Authors
 {
-    public class GetAuthorsQuery : BMQuery<QueryResultModel<List<AuthorApiModel>>>
+    public class GetAuthorsQuery : BMQuery<QueryResultModel<List<Author>>>
     {
     }
 }
